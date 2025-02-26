@@ -22,3 +22,5 @@ might help with the notation for mathematical expressions.
 
 
 Picking a good pivot in quicksort will help split the array in a more even way and it also keeps the sorting fast. If we pick the first element as the pivot, its probability of being a good pivot depends on its random placement in the array. Because all permutations of the array are equally likely, any element could be at any index. This is why, the probability that the first element falls within the middle third (between the 33rd to 66th percentile) is approximately 33.3%. The median-of-three (choosing the middle value from the first, middle, and last elements) is a better choice because it is about 5/9, which is a 56% chance of picking a good pivot. Since 56% > 33%, the median-of-three is more likely to keep quicksort efficient and will also prevent slow cases.
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
